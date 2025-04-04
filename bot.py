@@ -1,7 +1,7 @@
 from telegram import Update
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext
 
-TOKEN = "PUT_YOUR_BOT_TOKEN_HERE"  # ضع التوكن الخاص بك هنا
+TOKEN = "7530431758:AAHYOCjjp9fZ7K-PyGskQuLEsUbJIqsg_Hw"  # ضع التوكن الخاص بك هنا
 
 def start(update: Update, context: CallbackContext):
     update.message.reply_text("مرحبًا! اختر خدمة:\n1️⃣ الدعم الفني\n2️⃣ تتبع الطلب\n3️⃣ الاتصال بنا")
